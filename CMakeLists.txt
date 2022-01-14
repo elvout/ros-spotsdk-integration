@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(ros-spotsdk-integration)
 
 # Spot SDK Dependencies
+include(/opt/microsoft/vcpkg/scripts/buildsystems/vcpkg.cmake)
 find_package(Eigen3 REQUIRED)
 find_package(protobuf REQUIRED)
 find_package(gRPC REQUIRED)
