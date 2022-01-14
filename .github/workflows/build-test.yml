@@ -1,0 +1,15 @@
+name: build-test
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Build docker container
+        run: docker build -t ros-spotsdk-integration .
+
+      - name: Build project files
+        run: docker run --rm -t -w /ros-spotsdk-integration ros-spotsdk-integration scripts/build.sh

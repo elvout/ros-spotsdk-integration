@@ -1,0 +1,8 @@
+**/build
+**/bin
+**/lib
+
+.DS_Store
+
+.dockerignore
+Dockerfile
