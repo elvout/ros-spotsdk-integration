@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "cppStandard": "c++14",
+            "includePath": [
+                "/opt/boston-dynamics/spot-cpp-sdk/include/api/protos",
+                "/opt/boston-dynamics/spot-cpp-sdk/cpp",
+                "/opt/microsoft/vcpkg/packages/protobuf_x64-linux/include",
+                "/opt/microsoft/vcpkg/packages/grpc_x64-linux/include",
+                "/opt/microsoft/vcpkg/packages/cli11_x64-linux/include"
+            ]
+        }
+    ],
+    "version": 4
+}
