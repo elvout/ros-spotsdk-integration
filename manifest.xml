@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ros-spotsdk-integration</name>
+    <version>0.0.1</version>
+    <maintainer email="eyang@cs.utexas.edu">Elvin Yang</maintainer>
+
+    <depend package="roscpp"/>
+</package>
